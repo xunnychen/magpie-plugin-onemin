@@ -1,0 +1,25 @@
+{
+  "name": "magpie-plugin-onemin",
+  "version": "0.1.0",
+  "description": "1min.AI provider for magpie: serves the Claude Fable models its /openai/v1 endpoint leaves out",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "lib/",
+    "README.md",
+    "onemin.svg"
+  ],
+  "scripts": {
+    "test": "node --test ./test/plugin.test.mjs"
+  },
+  "keywords": [
+    "magpie-plugin",
+    "provider",
+    "onemin",
+    "fable",
+    "claude"
+  ],
+  "license": "MIT"
+}
